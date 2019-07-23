@@ -26,3 +26,10 @@ And no exclusions here. Cause - no tests - no code ;).
 
 This documentation should be enough to understand when and how to use this project
 without researching source code. All details, possible cases should be described in good fashion.
+
+5. All modules in scope of package should be:
+- camel-cased if module doesn't export class.
+  If module contains specific functionality like one specific service, model and etc. it should have name of main exported method.
+  If module contains common functionality like utilities, helpers and etc. it should have common descriptive name.
+
+- pascal-cased if module exports class. It should have name of exported class.
